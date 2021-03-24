@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 
 namespace JenkinsProject
 {
@@ -8,6 +9,8 @@ namespace JenkinsProject
         [Test]
         public void TC7()
         {
+            TestContext.WriteLine("Testing project");
+            Console.WriteLine("Testing project");
             Assert.Pass();
         }
         [Test]
