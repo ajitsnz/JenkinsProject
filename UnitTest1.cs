@@ -4,6 +4,12 @@ namespace JenkinsProject
 {
     public class Tests
     {
+
+        [Test]
+        public void TC7()
+        {
+            Assert.Pass();
+        }
         [Test]
         public void TC1()
         {
